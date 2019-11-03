@@ -8,7 +8,7 @@ The latest release can be found in the [JetBrains Plugins](https://plugins.jetbr
 
 # Features
 
-Version v0.5-beta.1 pre-release
+Version v0.5-beta.2 pre-release
 
     FPU, MMX, SSE, SSE2, SSE3, SSE4, AVX, AVX2, AVX512, Virtualization, and General instruction support.
     Syntax highlighting.
@@ -25,6 +25,10 @@ Version v0.5-beta.1 pre-release
 - Find Usages
 - Goto Symbol
 - Debugger Support
+
+# v0.5-beta.2 Changes
+
+    Eliminated the dependency on the deprecated FileTypeFactory class. Now requires IntelliJ Platform 2019.2 or higher.
 
 # v0.5-beta.1 Changes
     
@@ -80,6 +84,7 @@ Version v0.5-beta.1 pre-release
     Added initial references implementation for goto declaration support.
     Fixed bug caused by an invalid index being used when getting references.
     Add plugin logo icon and now use svg for file icons.
+    Eliminated the dependency on the deprecated FileTypeFactory class. Now requires IntelliJ Platform 2019.2 or higher.
 
 # License
 
